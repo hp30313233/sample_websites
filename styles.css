@@ -1,0 +1,165 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    color: #fff;
+  }
+
+  h1{
+    font-size: 3.5rem;
+    color: #fff;
+  }
+  h2{
+  font-size: 1.4rem;
+  color: #fff;
+  }
+  p{
+    font-size: 1rem;
+  }
+  
+  
+  /* ID */
+  #blank{
+    height: 600px;
+  }
+  #footer{
+    text-align: center;
+    background-color: #66BFBF;
+    padding: 2% 2%;
+    color: #fff;
+  }
+  
+  /* Classes */
+  .padd{
+    padding: 0;
+    margin: 0;
+  }
+  .title-logo{
+    font-weight: bolder;
+    color: #FFB344;
+    margin-left: 0.3rem;
+  }
+  .container{
+    position: absolute;
+    left: 3.9rem;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    animation: animate 25s ease-in-out infinite;
+    background-size: cover;
+    /* background-color: grey; */
+    /* margin-left: 4rem; */
+  }
+  .outer{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: rgba(0, 0, 0, 0.3);
+  }
+  .details{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50% , -50%);
+    text-align: center;
+  }
+  .pay-btn{
+    padding-top: 2rem;
+    text-align: center;
+  }
+  .ficon{
+    color: #fff;
+    margin-left: 20px;
+  }
+  
+  
+  
+  /* hover s */
+  h1:hover{
+    color: gold;
+    font-weight: bold;
+  }
+  h2:hover{
+    color: yellow;
+    font-weight: bold;
+    font-style: oblique;
+  }
+  .zoom:hover{
+    color: #185ADB;
+    font-weight: bold;
+  }
+  .ficon:hover{
+    color: grey;
+  }
+  .p1:hover{
+    color: #0A1931;
+    font-style: italic;
+    font-weight: bold;
+  }
+  .p2:hover{
+    color: #0A1931;
+    font-style: italic;
+    font-weight: bold;
+  }
+  /* keyframes */
+  @keyframes animate{
+    0%,100%{
+      background-image: url(e2.jpg);
+    }
+    20%{
+      background-image: url(e1.jpg);
+    }
+    40%{
+      background-image: url(e3.jpg);
+    }
+    60%{
+      background-image: url(e4.jpg);
+    }
+    80%{
+      background-image: url(e5.jpg);
+    }
+  }
+  /* Media */
+  @media (max-width:1200px){
+    #blank{
+      height: 1600px;
+    }
+    h1{
+      font-size: 3rem;
+    }
+    h2{
+      font-size: 2rem;
+     
+    }
+    li{
+      font-size:40px;
+    }
+    .container{
+      position: absolute;
+      left: 13%;
+      top: 8%;
+      width: 130%;
+      height: 1450px;
+      animation: animate 16ease-in-out infinite;
+      background-size: cover;
+    }
+    .outer{
+      position: absolute;
+      left: 0;
+      top: 0;
+      width: 100%;
+      height: 1450px;
+    }
+  
+    .title-img{
+      height: 80px;
+      width: 80px;
+    }
+    .title-logo{
+      font-size: 60px;
+    }
+  
+  }
+  
